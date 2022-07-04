@@ -683,8 +683,9 @@ a {
     margin: auto auto auto auto;
 }
 
+/* ? 11px> 14px */
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -709,6 +710,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+   
+        display: flex;
+        justify-content: space-evenly;
+    
 
 }
 
@@ -747,8 +752,10 @@ h4 {
     color: #FFFFFF !important;
 }
 
+/* ? Centrer images */
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -779,15 +786,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B15817;
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B15817;
     color: #FFFFFF !important;
 }
 
@@ -805,7 +812,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C !important;
+    color: #B15817 !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -919,10 +926,10 @@ h4 {
         position: relative;
     }
 
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
 
     .bloc-group,
     .bloc-group .bloc {
@@ -933,8 +940,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
