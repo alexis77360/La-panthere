@@ -523,19 +523,45 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    visibility: visible;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: white;
+
 }
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
+    visibility: visible;
 }
+
+/* ? Correctif remonté bar */
+
+.scrollToTop:hover,
+.scrollToTop:focus,
+.scrollToTop:active{
+    background-color: #854211;
+    box-shadow: 0px 4px 15px 8px white;
+    
+}
+
+.scrollToTop:hover span{
+    color:white;
+}
+
+.scrollToTop:focus span{
+    color:white;
+}
+
+.scrollToTop:active span{
+    color:white;
+}
+/* ? Fin Correctif  */
+
 
 a[data-lightbox] {
     position: relative;
