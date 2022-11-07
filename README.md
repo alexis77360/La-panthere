@@ -1,6 +1,6 @@
-Projet Openclassrooms
 
-# La-panthere  version après modifications pour le SEO
+
+# La-panthere  version après modifications pour le SEO Projet Openclassrooms #
 
 Missions :
  
